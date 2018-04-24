@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>KingFood Template</title>
+
+
+    <!--start css -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+    <!-- GOOGLE FONT -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900%7cCookie"/>
+    <link rel="icon" href="img/Logo.png" type="image/png">
+   <!--  ايقونة لعنوان الموقع-->
+    <!--end css -->
+</head>
+<body>
+
+<div class="container-fluid nicescroll">
+    <!--start header -->
+
+    <div class="row head-call">
+
+        <div class="container ">
+        <div class="col-md-6  padd ">
+            <ul class="list-inline">
+                <li>
+            <i class="fa fa-clock-o icon-style-left" aria-hidden="true"></i>
+            <span class="text-capitalize">openning hours: 8.00AM - 18.00PM </span>
+                </li>
+                <li>
+            <i class="fa fa-phone icon-style-left" aria-hidden="true"></i>
+            <span class="text-capitalize "> call us: (+1) 555 234-8765</span>
+                </li>
+            </ul>
+        </div>
+            <div class="col-md-offset-3 col-md-3">
+                <div class="right-menu">
+                    <ul class="list-inline">
+                        <li class="social-circle "><a href="#"><i class="fa fa-twitter  " aria-hidden="true"></i></a></li>
+                        <li class="social-circle"><a href="#"><i class="fa fa-facebook-f " aria-hidden="true"></i></a></li>
+                        <li class="social-circle"><a href="#"><i class="fa fa-pinterest-p " aria-hidden="true"></i></a></li>
+                        <li class="social-circle"><a href="#"><i class="fa fa-google " aria-hidden="true"></i></a></li>
+                        <li class="social-circle"><a href="#"><i class="fa fa-youtube-play " aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--end header -->
+    <!--start slider -->
+    <div class="row">
+
+        <div id="myCarousel" class="carousel slide slider-pos" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/slider1.jpg" class="img-responsive"/>
+
+                    <div class="carousel-caption slider-content">
+                        <h3>Spicy &amp; Testy </h3>
+                        <h1>American Chicken</h1>
+                        <button class="capitalize slider-button slider-button1 "><a  href="#reservation">Book A Table</a></button>
+                        <button class="capitalize slider-button slider-button2"><a  href="#menu">Our Menu</a></button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="img/slider2.jpg" class="img-responsive" />
+
+                    <div class="carousel-caption slider-content" >
+                        <h3>Hot &amp; Testy</h3>
+                        <h1>Different Food</h1>
+                        <button class="capitalize slider-button slider-button1 "><a  href="#reservation">Book A Table</a></button>
+                        <button class="capitalize slider-button slider-button2"><a  href="#menu">Our Menu</a></button>
+                        </div>
+
+                    </div>
+
+
+                <div class="item">
+                    <img src="img/slider4.jpg" class="img-responsive"/>
+
+                    <div class="carousel-caption slider-content">
+                        <h3>Hot &amp; Spicy</h3>
+                        <h1>Different Food</h1>
+                        <button class="capitalize slider-button slider-button1 "><a  href="#reservation">Book A Table</a></button>
+                        <button class="capitalize slider-button slider-button2"><a  href="#menu">Our Menu</a></button>
+                    </div>
+                </div>
+        </div>
+
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+            <!--start nav-->
+            <div class="row nav-pos ">
+                <div class="container">
+
+                <nav class="navbar navbar-default  navbar-style ">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#food-nav"
+                                    aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                            <img src="img/logo (1).png" height="50" width="150" class="flot"/>
+
+
+                        </div>
+
+
+
+                        <div class="collapse navbar-collapse nav-style" id="food-nav">
+                            <ul class="nav navbar-nav navbar-right ">
+                                <li><a data-scroll href="HomePage.html">home</a></li>
+                                <li><a data-scroll href="#about">about</a></li>
+                                <li><a data-scroll href="#speacial">speacial</a></li>
+                                <li><a data-scroll href="#menu">menu</a></li>
+                                <li><a data-scroll href="#news">news</a></li>
+                                <li><a data-scroll href="#my-info">contact</a></li>
+                                <li><a data-scroll href="#reservation" class="nav-button">reservation</a></li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                </div>
+            </div>
+            <!--end nav-->
+        </div>
+
+</div>
+    <!--start abouticon -->
+    <div class="row sec2style">
+        <div class="container">
+            <div class="col-md-4 col-sm-12 sec2-part1">
+<div class="center-img" >
+                <img src="img/about-icon.png" class="img-responsive text-center"/>
+            </div>
+                <h4 class="sec2-title"><a href="#">Dinner &amp; Dessert</a></h4>
+                <p>Beetroot water spinach okra water chestnut ricebean pea.</p>
+            </div>
+            <div class="col-md-4 col-sm-12 sec2-part1">
+
+                <div class="center-img" >
+                    <img src="img/about-icon2.png" class="img-responsive text-center"/>
+                </div>
+                <h4 class="sec2-title"><a href="#">Breakfast</a></h4>
+                <p>Beetroot water spinach okra water chestnut ricebean pea.</p>
+            </div>
+            <div class="col-md-4 col-sm-12 sec2-part1">
+
+                <div class="center-img" >
+                    <img src="img/about-icon3.png" class="img-responsive text-center"/>
+                </div>
+                <h4 class="sec2-title"><a href="#">Ice Shakes</a></h4>
+                <p>Beetroot water spinach okra water chestnut ricebean pea.</p>
+            </div>
+        </div>
+
+    </div>
+    <!--end abouticon -->
+    <!--start aboutus -->
+    <div id="about" class="row sec3">
+        <h3 class="subtitle">About our History</h3>
+        <h2 class="sec3-title">Welcome to The Foodking</h2>
+        <p class="sec3-text">
+            We provide you with daily self-made bread, sourdough pizza, roasted fish-meat-vegetables and <br/>
+            many more. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br/>
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+        </p>
+
+
+<div class="center-img ">
+        <img src="img/about-bottom.jpg" class="img-responsive"/>
+</div>
+</div>
+    <!--end aboutus -->
+    <!--start chefSelection-->
+    <div id="speacial" class="row sec4">
+        <h3 class="subtitle subtitle-madia">Special Food Items</h3>
+        <h2 class="sec3-title title-madia">Chef Selection</h2>
+        <div class="container">
+        <div class="col-md-4 sec4-img ">
+
+            <img src="img/special-item1.jpg " class="img-responsive"/>
+            <div class="sec4-overlay">
+                <i class="fa fa-cutlery fa-3x " aria-hidden="true"></i>
+            </div>
+            <div class="sec4-abs">
+                <h3 class="price">558 <span>$</span></h3>
+
+            </div>
+            <div class="sec4-div ">
+                <h4 class="sec4-subtitle">Mexican Food</h4>
+                <h3 class="sec4-title"><a href="#">Burger Mexicana</a></h3>
+            </div>
+        </div>
+
+
+        <div class="col-md-4 sec4-img ">
+
+
+            <img src="img/special-item2.jpg " class="img-responsive"/>
+            <div class="sec4-overlay">
+                <i class="fa fa-cutlery fa-3x " aria-hidden="true"></i>
+            </div>
+            <div class="sec4-abs">
+                <h3 class="price">558 <span>$</span></h3>
+
+
+            </div>
+            <div class="sec4-div ">
+
+                <h4 class="sec4-subtitle">Italian Food</h4>
+                <h3 class="sec4-title"><a href="#">Chocolate Milkshake</a></h3>
+            </div>
+
+        </div>
+
+        <div class="col-md-4 sec4-img ">
+
+
+            <img src="img/special-item3.jpg " class="img-responsive"/>
+            <div class="sec4-overlay">
+                <i class="fa fa-cutlery fa-3x " aria-hidden="true"></i>
+            </div>
+            <div class="sec4-abs">
+                <h3 class="price">558 <span>$</span></h3>
+
+            </div>
+            <div class="sec4-div ">
+                <h4 class="sec4-subtitle">Mexican Food</h4>
+                <h3 class="sec4-title"><a href="#">Black Bean Burger</a></h3>
+            </div>
+        </div>
+            <div class="row sec4-2">
+                <div class="col-md-4 sec4-img ">
+
+                    <img src="img/special-item4.jpg " class="img-responsive"/>
+                    <div class="sec4-overlay">
+                        <i class="fa fa-cutlery fa-3x " aria-hidden="true"></i>
+                    </div>
+                    <div class="sec4-abs">
+                        <h3 class="price">558 <span>$</span></h3>
+
+                    </div>
+                    <div class="sec4-div ">
+                        <h4 class="sec4-subtitle">Mexican Food</h4>
+                        <h3 class="sec4-title"><a href="#">Burger Mexicana</a></h3>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 sec4-img">
+
+
+                    <img src="img/special-item5.jpg " class="img-responsive"/>
+                    <div class="sec4-overlay">
+                        <i class="fa fa-cutlery fa-3x " aria-hidden="true"></i>
+                    </div>
+                    <div class="sec4-abs">
+                        <h3 class="price">558 <span>$</span></h3>
+
+
+                    </div>
+                    <div class="sec4-div ">
+
+                        <h4 class="sec4-subtitle">Italian Food</h4>
+                        <h3 class="sec4-title"><a href="#">Chocolate Milkshake</a></h3>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 sec4-img " >
+                    <img src="img/special-item6.jpg " class="img-responsive"/>
+                    <div class="sec4-overlay">
+                        <i class="fa fa-cutlery fa-3x " aria-hidden="true"></i>
+                    </div>
+                    <div class="sec4-abs">
+                        <h3 class="price">558 <span>$</span></h3>
+
+                    </div>
+                    <div class="sec4-div ">
+                        <h4 class="sec4-subtitle">Mexican Food</h4>
+                        <h3 class="sec4-title"><a href="#">Black Bean Burger</a></h3>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+    <!--end chefSelection-->
+    <!--start menu-->
+<div  id="menu" class="row ">
+    <div class="sec5">
+    <div class="sec5-overlay">
+    </div>
+        <div class="container sec5-1">
+        <h3 class="subtitle">Food Recipe Items</h3>
+        <h2 class="sec3-title">Menu Of The Day</h2>
+            <div class="sec5-nav">
+                <ul class="nav nav-pills center-pills">
+                    <li class="active" ><a data-toggle="pill" href="#home"><img src="img/tab-menu1.png" alt=""> Speacial</a></li>
+                    <li ><a data-toggle="pill" href="#menu1"><img src="img/tab-menu2.png" alt=""> Breakfast</a></li>
+                    <li ><a data-toggle="pill" href="#menu2"><img src="img/tab-menu3.png" alt=""> Lunch</a></li>
+                    <li ><a data-toggle="pill" href="#menu3"><img src="img/tab-menu4.png" alt=""> Dinner</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container">
+                <div class="tab-content">
+                <div id="home" class="tab-pane fade in active">
+
+                <div class="row row1">
+                    <div class="col-md-6">
+                        <div class="sec5-tap1">
+                            <h3 class="sec5-title">Pizza Mexicana</h3>
+                            <p class="sec5-price">
+                                150<span>$</span>
+                            </p>
+                        </div>
+                        <p class="sec5-text">
+                            With chopped vegetables, served with plum sauce.<br/>
+                            Tossed in peppercorns and spiced salt
+                        </p>
+                        <div class="sec5-img ">
+                            <img src="img/special-item1.jpg " class="img-responsive"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="sec5-tap1">
+                            <h3 class="sec5-title">Chocolate Milkshake</h3>
+                            <p class="sec5-price">
+                                150<span>$</span>
+                            </p>
+                        </div>
+                        <p class="sec5-text">
+                            With chopped vegetables, served with plum sauce.<br/>
+                            Tossed in peppercorns and spiced salt
+                        </p>
+                        <div class="sec5-img ">
+                            <img src="img/special-item2.jpg " class="img-responsive"/>
+                        </div>
+                    </div>
+
+                      </div>
+
+                    <div class="row row1">
+                    <div class="col-md-6">
+                        <div class="sec5-tap1">
+                            <h3 class="sec5-title">Caesar Salad</h3>
+                            <p class="sec5-price">
+                               70<span>$</span>
+                            </p>
+                        </div>
+                        <p class="sec5-text">
+                            With chopped vegetables, served with plum sauce.<br/>
+                            Tossed in peppercorns and spiced salt
+                        </p>
+                        <div class="sec5-img ">
+                            <img src="img/special-item3.jpg " class="img-responsive"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="sec5-tap1">
+                            <h3 class="sec5-title">Black Bean Burger</h3>
+                            <p class="sec5-price">
+                                150<span>$</span>
+                            </p>
+                        </div>
+                        <p class="sec5-text">
+                            With chopped vegetables, served with plum sauce.<br/>
+                            Tossed in peppercorns and spiced salt
+                        </p>
+                        <div class="sec5-img ">
+                            <img src="img/special-item4.jpg " class="img-responsive"/>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="row row1">
+
+                    <div class="col-md-6">
+                        <div class="sec5-tap1">
+                            <h3 class="sec5-title">
+                                American Humburger</h3>
+                            <p class="sec5-price">
+                                40<span>$</span>
+                            </p>
+                        </div>
+                        <p class="sec5-text">
+                            With chopped vegetables, served with plum sauce.<br/>
+                            Tossed in peppercorns and spiced salt
+                        </p>
+                        <div class="sec5-img ">
+                            <img src="img/special-item5.jpg " class="img-responsive"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="sec5-tap1">
+                            <h3 class="sec5-title">
+                                Burger Mexicana</h3>
+                            <p class="sec5-price">
+                                40<span>$</span>
+                            </p>
+                        </div>
+                        <p class="sec5-text">
+                            With chopped vegetables, served with plum sauce.<br/>
+                            Tossed in peppercorns and spiced salt
+                        </p>
+                        <div class="sec5-img ">
+                            <img src="img/special-item6.jpg " class="img-responsive"/>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="row row1">
+                    <div class="col-md-6">
+                        <div class="sec5-tap1">
+                            <h3 class="sec5-title">Pizza Mexicana</h3>
+                            <p class="sec5-price">
+                                150<span>$</span>
+                            </p>
+                        </div>
+                        <p class="sec5-text">
+                            With chopped vegetables, served with plum sauce.<br/>
+                            Tossed in peppercorns and spiced salt
+                        </p>
+                        <div class="sec5-img ">
+                            <img src="img/special-item1.jpg " class="img-responsive"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="sec5-tap1">
+                            <h3 class="sec5-title">Pizza Mexicana</h3>
+                            <p class="sec5-price">
+                                150<span>$</span>
+                            </p>
+                        </div>
+                        <p class="sec5-text">
+                            With chopped vegetables, served with plum sauce.<br/>
+                            Tossed in peppercorns and spiced salt
+                        </p>
+                        <div class="sec5-img ">
+                            <img src="img/special-item2.jpg " class="img-responsive"/>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div id="menu1" class="tab-pane fade ">
+
+
+                    <div class="row row1">
+                        <div class="col-md-6">
+                            <div class="sec5-tap1">
+                                <h3 class="sec5-title">Caesar Salad</h3>
+                                <p class="sec5-price">
+                                    70<span>$</span>
+                                </p>
+                            </div>
+                            <p class="sec5-text">
+                                With chopped vegetables, served with plum sauce.<br/>
+                                Tossed in peppercorns and spiced salt
+                            </p>
+                            <div class="sec5-img ">
+                                <img src="img/special-item3.jpg " class="img-responsive"/>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="sec5-tap1">
+                                <h3 class="sec5-title">Black Bean Burger</h3>
+                                <p class="sec5-price">
+                                    150<span>$</span>
+                                </p>
+                            </div>
+                            <p class="sec5-text">
+                                With chopped vegetables, served with plum sauce.<br/>
+                                Tossed in peppercorns and spiced salt
+                            </p>
+                            <div class="sec5-img ">
+                                <img src="img/special-item4.jpg " class="img-responsive"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row row1">
+
+                        <div class="col-md-6">
+                            <div class="sec5-tap1">
+                                <h3 class="sec5-title">
+                                    American Humburger</h3>
+                                <p class="sec5-price">
+                                    40<span>$</span>
+                                </p>
+                            </div>
+                            <p class="sec5-text">
+                                With chopped vegetables, served with plum sauce.<br/>
+                                Tossed in peppercorns and spiced salt
+                            </p>
+                            <div class="sec5-img ">
+                                <img src="img/special-item5.jpg " class="img-responsive"/>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="sec5-tap1">
+                                <h3 class="sec5-title">
+                                    Burger Mexicana</h3>
+                                <p class="sec5-price">
+                                    40<span>$</span>
+                                </p>
+                            </div>
+                            <p class="sec5-text">
+                                With chopped vegetables, served with plum sauce.<br/>
+                                Tossed in peppercorns and spiced salt
+                            </p>
+                            <div class="sec5-img ">
+                                <img src="img/special-item6.jpg " class="img-responsive"/>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="menu2" class="tab-pane fade">
+                    <div class="row row1">
+                        <div class="col-md-6">
+                            <div class="sec5-tap1">
+                                <h3 class="sec5-title">Pizza Mexicana</h3>
+                                <p class="sec5-price">
+                                    150<span>$</span>
+                                </p>
+                            </div>
+                            <p class="sec5-text">
+                                With chopped vegetables, served with plum sauce.<br/>
+                                Tossed in peppercorns and spiced salt
+                            </p>
+                            <div class="sec5-img ">
+                                <img src="img/special-item1.jpg " class="img-responsive"/>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="sec5-tap1">
+                                <h3 class="sec5-title">Chocolate Milkshake</h3>
+                                <p class="sec5-price">
+                                    150<span>$</span>
+                                </p>
+                            </div>
+                            <p class="sec5-text">
+                                With chopped vegetables, served with plum sauce.<br/>
+                                Tossed in peppercorns and spiced salt
+                            </p>
+                            <div class="sec5-img ">
+                                <img src="img/special-item2.jpg " class="img-responsive"/>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div id="menu3" class="tab-pane fade ">
+
+                    <div class="row row1">
+                        <div class="col-md-6">
+                            <div class="sec5-tap1">
+                                <h3 class="sec5-title">Pizza Mexicana</h3>
+                                <p class="sec5-price">
+                                    150<span>$</span>
+                                </p>
+                            </div>
+                            <p class="sec5-text">
+                                With chopped vegetables, served with plum sauce.<br/>
+                                Tossed in peppercorns and spiced salt
+                            </p>
+                            <div class="sec5-img ">
+                                <img src="img/special-item3.jpg " class="img-responsive"/>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="sec5-tap1">
+                                <h3 class="sec5-title">Pizza Mexicana</h3>
+                                <p class="sec5-price">
+                                    150<span>$</span>
+                                </p>
+                            </div>
+                            <p class="sec5-text">
+                                With chopped vegetables, served with plum sauce.<br/>
+                                Tossed in peppercorns and spiced salt
+                            </p>
+                            <div class="sec5-img ">
+                                <img src="img/special-item1.jpg " class="img-responsive"/>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row row1">
+                        <div class="col-md-6">
+                            <div class="sec5-tap1">
+                                <h3 class="sec5-title">Black Bean Burger</h3>
+                                <p class="sec5-price">
+                                    150<span>$</span>
+                                </p>
+                            </div>
+                            <p class="sec5-text">
+                                With chopped vegetables, served with plum sauce.<br/>
+                                Tossed in peppercorns and spiced salt
+                            </p>
+                            <div class="sec5-img ">
+                                <img src="img/special-item4.jpg " class="img-responsive"/>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+
+
+        </div>
+
+
+</div>
+   </div>
+    <!--end menu-->
+    <!--start Reservation-->
+    <div   class="row " id="reservation">
+        <div class="container">
+            <div class="sec6">
+            <h3 class="subtitle">BOOK A TABLE NEW</h3>
+            <h2 class="sec3-title">Foodking Reservation</h2>
+                <div class="sec6-form">
+                    <form  name="myForm" id="foodiebooking" class="myform"  method="post">
+
+                            <div class="row">
+                                <div class="container-fluid">
+                                    <div class="col-md-6 ">
+
+                                    <div class="form-group ">
+                            <input  class="form-control input-lg left-input" name="fb_name" id="foodiebooking_name" placeholder="Enter Your Name" aria-required="true" type="text">
+                        </div>
+                        </div>
+                                    <div class="col-md-6">
+
+                                    <div class="form-group ">
+                            <input  class="form-control input-lg right-input" name="fb_email" id="foodiebooking_email" placeholder="Email Address" aria-required="true" type="email">
+                        </div>
+                            </div>
+                                </div>
+                            </div>
+                        <div class="row">
+                            <div class="container-fluid">
+
+                        <div class="col-md-6 ">
+                            <div class="form-group ">
+                            <input class="form-control input-lg left-input" name="fb_phone" id="foodiebooking_phone" placeholder="Telephone Number" type="text">
+                        </div>
+                                </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group ">
+                            <select class="form-control input-lg right-input" name="fb_person" id="foodiebooking_person" aria-required="true">
+                                <option value="">Number of Guests</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="8">9</option>
+                                <option value="10">10</option>
+                                <option value="more">More than 10</option>
+                            </select>
+                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="container-fluid">
+
+                        <div class="col-md-6  ">
+                            <div class="form-group ">
+                            <div class="input-group date input-group-lg " id="datetimepicker2">
+                                <input name="fb_date" id="foodiebooking_date" class="form-control  " placeholder="Date format ( mm-dd-yyyy )" aria-required="true" type="text" style="border-radius: 25px 0 0 25px;!important";>
+                                <span class="input-group-addon">
+                                                        <span class="glyphicon glyphicon-calendar"></span>
+                                                    </span>
+                            </div>
+                        </div>
+                     </div>
+                                <div class="col-md-6">
+                                    <div class="form-group ">
+
+                                    <select class="form-control input-lg right-input" name="fb_time" id="foodiebooking_time" aria-required="true">
+                                <option value="">Time</option>
+                                <option value="1">Breakfast</option>
+                                <option value="2">Lunch</option>
+                                <option value="3">Dinner</option>
+                            </select>
+                        </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input id="fb_submit" class="reg-button" value="Booking Submit" type="submit">
+                        </div>
+
+                    </form>
+
+
+                </div>
+            <img src="img/reservation.jpg" class="img-responsive"/>
+
+
+                <h4 class="sec6-title">Or Call Now</h4>
+                <ul class="list-inline">
+                    <li>+12345 678 555</li>
+                    <li>+12345 678 556</li>
+                    <li>+12345 678 557</li>
+                </ul>
+
+        </div>
+        </div>
+
+    </div>
+    <!--end Reservation-->
+     
+
+<!--Subscribe-->
+    <div class="container text-center Subscribe">
+        <div class="row text-center">
+            <div class="col-xs-12">
+                    <div class="csi-heading">
+                        <h3 class="subtitle">Join Our Mailing List!</h3>
+                        <h2 class="title">Subscribe Our Newsletter</h2>
+                    </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+                <div class="csi-subscribe-area">
+                    <p style="color: #A8AAB1" class="text">If you want to receive the latest news,<br> please subscribe us.</p>
+                    <div class="subscribe-form">
+                        <form class="subscribe-form-action csi-subscribe-form" action="#">
+                            <div class="form-group csi-subscribe-input">
+                                <input type="email" id="subscribe" class="csi-input csi-input-form form-control" required="required" placeholder="Enter Email Address ...">
+                            </div>
+                        <div class="form-group csi-subscribe-btn">
+                            <button class="csi-btn csi-submit csi-submit-btn" name="csi-submit" type="submit">Subscribe <i class="fa fa-paper-plane"></i></button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div><!-- //.CONTAINER -->
+    <!--Subscribe END-->
+
+    <!-- info section -->
+<div id="my-info" class="my-info row">
+    <div class="container">
+        <div class="row"> 
+            <img src="img/logo.png">
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+            <h2>Contact</h2>
+            <p>
+                345 Park Ave, San Jose, CA 95110,<br>
+                 United States <br>
+                info@yourdomain.com  
+            </p>
+        </div>
+        <div class="col-md-3">
+            <h2>Book A Table</h2>
+            <p>
+                pellentesque vehicula. Aliquam turpis <br>
+                 justo, mattis id neque <br>
+                Mobile: +778529600  
+            </p>
+        </div>
+        <div class="col-md-3">
+            <h2>Opening Time</h2>
+            <p>
+                Mon - Thu 11:30 - 22:00 clock<br>
+                 Fri - Sat 11:30 - 24:00 clock  
+            </p>
+        </div>
+        <div class="col-md-3">
+            <h2>Social Links</h2>
+            <p> 
+                <a href="#"><i style="color: " class="fa fa-twitter"></i></a>
+                <a href="#"><i style="color: #3b5998" class="fa fa-facebook-f"></i></a>
+                <a href="#"><i style="color: #cd201f" class="fa fa-youtube-play"></i></a>
+                <a href="#"><i style="color: #00a0dc" class="fa fa-linkedin"></i></a>
+                <a href="#"><i style="color: #c13584" class="fa fa-instagram"></i></a>
+            </p>
+        </div>
+        </div>
+    </div>
+</div>
+
+<!-- end info section -->
+
+<!--footer-->
+<div class="myfooter row"> 
+    <div  class="container">
+        FoodKing is proudly powered by <a href="#">Aya Sammour </a>  | &copy;    2017 all rights reserved by CSInfotech
+    </div>
+</div>
+<!-- end footer-->
+
+<!-- Start scroll-top button -->
+<div id="scroll-top-area" class="hvr-grow">
+    <a href="#my-slider"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a>
+</div>
+<!-- End scroll-top button -->
+
+</div>
+<!--start script -->
+<script src="JS/jquery-3.2.1.js"></script>
+<script src="JS/bootstrap.js"></script>
+<script src="JS/moment-with-locales.min.js"></script>
+<script src="JS/bootstrap-datetimepicker.min.js"></script>
+<script src="JS/jquery.smooth-scroll.min.js"></script>
+<script src="JS/smooth-scroll.min.js"></script>
+<script src="JS/jquery.nicescroll.min.js"></script>
+<script src="JS/jquery.validate.js"></script>
+<script src="JS/home.js"></script>
+<!--end script-->
+</body>
+</html>
